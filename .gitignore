@@ -1,4 +1,6 @@
+# --- For .dotfiles
 .gitignore
 *.*
 */
 !.tmux.conf
+!tms.sh
