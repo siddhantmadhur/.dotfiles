@@ -196,6 +196,7 @@ bar {
 # custom commands
 exec "feh --bg-scale /home/smadhur/Pictures/wallpaper/oot-zelda.jpg"
 # exec "xinput --set-prop 16 'libinput Accel Profile Enabled' 0 1 0"
+exec "xrandr --output DisplayPort-1 --mode 1920x1080 --rate 165"
 exec picom -b
 
 
