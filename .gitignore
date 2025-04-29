@@ -1,7 +1,7 @@
 # --- For .dotfiles
 .gitignore
-!.config/i3/config
 *.*
 */
 !.tmux.conf
 !tms.sh
+!.config/sway/config
