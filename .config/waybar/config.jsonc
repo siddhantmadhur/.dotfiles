@@ -18,6 +18,7 @@
     ],
     "modules-right": [
         "mpris",
+        "network",
         "load",
 	"wireplumber",
         "clock",
@@ -95,6 +96,9 @@
     },
     "memory": {
         "format": "{}% "
+    },
+    "network": {
+        "format": "{essid} @ {ifname}"
     },
     "temperature": {
         // "thermal-zone": 2,
