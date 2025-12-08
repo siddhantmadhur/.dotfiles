@@ -3,7 +3,7 @@
 if [[ $# -eq 1 ]]; then
     selected=$1
 else
-    selected=$(find -L ~/school ~/projects ~/github/gnu-tools -mindepth 1 -maxdepth 1 -type d | fzf)
+    selected=$(find -L ~/school ~/projects -mindepth 2 -maxdepth 2 -type d ! -name ".*" | fzf)
 fi
 
 if [[ -z $selected ]]; then
