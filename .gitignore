@@ -6,4 +6,5 @@
 !tms.sh
 !.config/sway/config
 !.config/waybar
+!.zshrc
 github
