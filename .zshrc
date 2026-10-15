@@ -121,3 +121,12 @@ export PATH="/home/smadhur/.local/bin:$PATH"
 
 # Flutter
 export PATH="/home/smadhur/.local/applications/flutter/bin:$PATH"
+
+# EMB - Toyota
+export PATH="$PATH":"$HOME/.local/state/Dart/install/bin"
+export PATH="$PATH:/home/smadhur/source/ivi-homescreen/.config/flutter_workspace/overlay-x86_64-linux-gnu/usr"
+export PATH="$PATH:/home/smadhur/source/ivi-homescreen/.config/flutter_workspace/cross-build-x86_64-linux-gnu-a146465f3906-773fa508/build-wayland-vulkan/shell"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
