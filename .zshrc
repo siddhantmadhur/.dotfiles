@@ -8,7 +8,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time Oh My Zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="robbyrussell"
+ZSH_THEME="af-magic"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -106,18 +106,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias tm="$HOME/tms.sh"
 
-export PATH=$PATH:/home/smadhur/.local/applications/neovim/bin
-
-alias vim=nvim
-
-export EDITOR="$HOME/.local/applications/neovim/bin/nvim"
-
-
-# Added by Antigravity CLI installer
-export PATH="/home/smadhur/.local/bin:$PATH"
-export PATH="/home/smadhur/.local/bin:$PATH"
-
-# Flutter
-export PATH="/home/smadhur/.local/applications/flutter/bin:$PATH"
+export PATH="$PATH:/home/smadhur/.local/bin/nvim-linux-x86_64/bin"
+export PATH="$PATH:/home/smadhur/go/bin"
+export PATH="$PATH:/usr/lib/prometheus/"
