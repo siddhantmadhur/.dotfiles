@@ -28,8 +28,7 @@ set $menu "rofi -show drun"
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg /home/smadhur/Pictures/wallpaper/oot-zelda.jpg fill
-#output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
+output * bg /home/smadhur/Pictures/wallpaper/items.jpeg fill
 #
 # Example configuration:
 #
@@ -41,10 +40,10 @@ output * bg /home/smadhur/Pictures/wallpaper/oot-zelda.jpg fill
 #
 # Example configuration:
 #
-# exec swayidle -w \
-#          timeout 300 'swaylock -f -c 000000' \
-#          timeout 600 'swaymsg "output * power off"' resume 'swaymsg "output * power on"' \
-#          before-sleep 'swaylock -f -c 000000'
+exec swayidle -w \
+         timeout 300 'swaylock -f -c 000000' \
+         timeout 600 'swaymsg "output * power off"' resume 'swaymsg "output * power on"' \
+         before-sleep 'swaylock -f -c 000000'
 #
 # This will lock your screen after 300 seconds of inactivity, then turn off
 # your displays after another 300 seconds, and turn your screens back on when
@@ -77,7 +76,7 @@ bindsym $mod+L exec swaylock
     bindsym $mod+Shift+q kill
 
     # Start your launcher
-    bindsym Ctrl+space exec $menu
+    bindsym $mod+d exec $menu
 
     # Drag floating windows by holding down $mod and left mouse button.
     # Resize them with right mouse button + $mod.
@@ -224,24 +223,28 @@ bindsym $mod+r mode "resize"
 #
 bar {
     position top
-    #swaybar_command waybar
-
+    swaybar_command waybar
+  
     # When the status_command prints a new line to stdout, swaybar updates.
     # The default just shows the current date and time.
-    status_command while date +'%Y-%m-%d %X'; do sleep 1; done
-
-    colors {
-        statusline #ffffff
-        background #323232E6
-        inactive_workspace #32323200 #32323200 #5c5c5c
-    }
+    # status_command while date +'%Y-%m-%d %X'; do sleep 1; done
+    #
+    # colors {
+    #     statusline #ffffff
+    #     background #323232E6
+    #     inactive_workspace #32323200 #32323200 #5c5c5c
+    # }
 }
 
 include /etc/sway/config.d/*
 
 # monitor settings
-output DP-2 {
+output "HKC OVERSEAS LIMITED 24E3 0000000000001" {
     mode 1920x1080@165.001Hz
+}
+
+output "AOC Q27G4ZMN XGYR7UA000148" {
+  mode 2560x1440@240.002Hz
 }
 
 input "type:pointer" {

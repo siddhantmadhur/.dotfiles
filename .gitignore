@@ -5,6 +5,6 @@
 !.tmux.conf
 !tms.sh
 !.config/sway/config
-!.config/waybar
+!.config/waybar/*
 !.zshrc
 github
