@@ -28,7 +28,7 @@ set $menu "rofi -show drun"
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg /home/smadhur/Pictures/wallpaper/items.jpeg fill
+output * bg /home/smadhur/Pictures/wallpaper/twilight_princess.jpeg fill
 #
 # Example configuration:
 #
@@ -245,6 +245,9 @@ output "HKC OVERSEAS LIMITED 24E3 0000000000001" {
 
 output "AOC Q27G4ZMN XGYR7UA000148" {
   mode 2560x1440@240.002Hz
+  adaptive_sync on
+  render_bit_depth 10
+  hdr on
 }
 
 input "type:pointer" {
@@ -259,3 +262,16 @@ gaps inner 2
 gaps outer 3
 
 exec dunst
+
+
+default_border pixel 3
+
+## Colours
+set $base00 #7A7657
+set $base01 #BEBBA3
+
+## Window Colours
+client.focused   $base01  $base01  $base01  $base01  $base01
+client.focused_inactive  $base00  $base00  $base00  $base00  $base00
+client.unfocused   $base00  $base00  $base00  $base00  $base00
+client.background        $base00

@@ -136,3 +136,6 @@ export PATH="$HOME/.local/bin:$PATH"
 
 # opencode
 export PATH=/home/smadhur/.opencode/bin:$PATH
+
+export XDG_DATA_DIRS="/usr/share/:/usr/local/share/:/var/lib/snapd/desktop"
+
