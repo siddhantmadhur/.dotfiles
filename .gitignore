@@ -8,3 +8,4 @@
 !.config/waybar/*
 !.zshrc
 github
+!.local/share/scripts/*

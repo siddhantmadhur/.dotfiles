@@ -106,13 +106,13 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias tm="$HOME/tms.sh"
+export PATH="$PATH:/home/smadhur/.local/share/scripts"
 
 export PATH=$PATH:/home/smadhur/.local/applications/neovim/bin
 
 alias vim=nvim
 
-export EDITOR="$HOME/.local/applications/neovim/bin/nvim"
+export EDITOR="nvim"
 
 
 # Added by Antigravity CLI installer

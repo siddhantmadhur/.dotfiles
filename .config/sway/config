@@ -246,8 +246,8 @@ output "HKC OVERSEAS LIMITED 24E3 0000000000001" {
 output "AOC Q27G4ZMN XGYR7UA000148" {
   mode 2560x1440@240.002Hz
   adaptive_sync on
-  render_bit_depth 10
-  hdr on
+  # render_bit_depth 10
+  # hdr on
 }
 
 input "type:pointer" {
