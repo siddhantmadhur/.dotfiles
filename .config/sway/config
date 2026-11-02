@@ -28,7 +28,8 @@ set $menu "rofi -show drun"
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg /home/smadhur/Pictures/wallpaper/twilight_princess.jpeg fill
+output DP-2 bg /home/smadhur/Pictures/wallpaper/twilight_princess.jpeg fill
+output DP-1 bg /home/smadhur/Pictures/wallpaper/twilight_princess_2.jpeg fill
 #
 # Example configuration:
 #
