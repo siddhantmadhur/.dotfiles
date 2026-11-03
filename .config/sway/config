@@ -52,6 +52,10 @@ exec swayidle -w \
 
 bindsym $mod+L exec swaylock
 
+bindsym $mod+T exec alacritty --command alpine
+
+# Email Shortcut
+
 ### Input configuration
 #
 # Example configuration:
