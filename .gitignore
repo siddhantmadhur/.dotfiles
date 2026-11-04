@@ -9,3 +9,4 @@
 !.zshrc
 github
 !.local/share/scripts/*
+!scripts/

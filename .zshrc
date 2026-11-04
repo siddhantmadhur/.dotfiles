@@ -106,7 +106,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-export PATH="$PATH:/home/smadhur/.local/share/scripts"
+export PATH="$PATH:/home/smadhur/scripts"
 
 export PATH=$PATH:/home/smadhur/.local/applications/neovim/bin
 
