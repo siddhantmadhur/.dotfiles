@@ -259,11 +259,13 @@ output "AOC Q27G4ZMN XGYR7UA000148" {
 
 input "type:pointer" {
     accel_profile "flat"
-    pointer_accel 0.0
+    pointer_accel -0.3
 } 
 
-bindsym $sup+Shift+5 exec grim -g "$(slurp -d)" - | wl-copy
+bindsym $mod+Home exec grim -g "$(slurp -d)" - | wl-copy
 #bindsym $sup+Shift+4 exec grim -g "$(slurp -d)" - | wl-copy > image.jpg
+
+#bindsym Insert exec play -q -n synth 0.1 sin 800
 
 gaps inner 2
 gaps outer 3
